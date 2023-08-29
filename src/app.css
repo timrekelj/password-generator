@@ -1,14 +1,15 @@
-@import url('https://www.dafontfree.net/embed/Z2VvcmdpYS1pdGFsaWMmZGF0YS80Ni9nLzU4MzUxL2dlb3JnaWEgaXRhbGljLnR0Zg');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-    font-family: Georgia;
-    src: url('/font/Georgia Italic.ttf');
+body {
+    font-family: 'Poppins', sans-serif;
+    padding: 2rem;
 }
 
-/* body {
-} */
+li, .copy {
+  display: flex;
+  align-items: center;
+}
