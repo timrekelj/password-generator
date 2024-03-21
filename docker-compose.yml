@@ -1,0 +1,7 @@
+services:
+  password_generator:
+    build: .
+    container_name: password_generator
+    restart: unless-stopped
+    ports:
+      - 12345:3000
